@@ -41,7 +41,7 @@
 	$multiCurl = array();
 	$result = array();
 	$mh = curl_multi_init();
-	$lol = 21779;
+	//$lol = 21779;
 	$id = array();
 	$twitchApi;
 	// Adiciona as streams em uma array
@@ -63,6 +63,7 @@
 			curl_setopt($multiCurl[$i], CURLOPT_RETURNTRANSFER, true);
 			curl_setopt($multiCurl[$i], CURLOPT_HTTPHEADER, array('Client-ID: a5zyq2na4qgu1ccuuo5omjathz1fbe'));
 			curl_multi_add_handle($mh, $multiCurl[$i]);
+			usleep(200000);
 		}
 		$active = null;
 		do{
@@ -76,7 +77,7 @@
 		}
 		
 		curl_multi_close($mh);
-		//print_r($twitchApi);
+		print_r($twitchApi);
 
 		/*for($i = 0; $i < count($twitchApi); $i++){
 		$id[$i] = array_map(function($item){
@@ -97,9 +98,7 @@
 	}, $twitch_api['data']);*/
 
 	function checkStream($stream){
-	
-
-	$lol = 21779;
+	//$lol = 21779;
 	global $id;
 	global $twitchApi;
 	//$value = array();
@@ -143,11 +142,11 @@ foreach($twitchApi as $apis){
 					}
 				}
 			}else{
-				echo "api não é uma array";
+				//echo "api não é uma array";
 			}
 		}
 	}else{
-		echo "twitchApi não é uma array";
+		//echo "twitchApi não é uma array";
 	}
 	/*if ( $keys[$i] == 'user_name'){
 		//echo '<span style="color:rgb(0, 255, 0);">ONLINE</span>';
@@ -208,8 +207,494 @@ foreach($twitchApi as $apis){
 	getStream("iolkaida");
 	getStream("lyaphine");
 
-	// Executar cURL
+	//Azir
+	getStream("fullsand");
+	getStream("body_those_fools");
+	getStream("kzykendy");
+
+	
+	
+	
+
+	//Bardo
+	getStream("cheed");
+
+	//Blitz
+	getStream("padrejoselol");
+	getStream("scrandor");
+
+	//Brand
+	getStream("ferkzmainbrandbr");
+
+	//Braum
+
+	//Caitlyn
+
+	//Camile
+	getStream("cree654");
+	getStream("drututt");
+
+	//Cassiopeia
+	getStream("devilcass");
+
+	//Cho'Gath
+	getStream("alex_blais");
+
+	//Corki
+
+	//Darius
+	getStream("dystrex");
+	getStream("donaldthegiant");
+	getStream("adzioo");
+	getStream("ravenborne_");
+
+	//Diana
+	getStream("sdiana2na");
+	getStream("suntail_");
+	getStream("xaltofficial");
+
+	//Dr. Mundo
+	getStream("mundo_stream");
+
+	//Draven
+	getStream("parnstarzilean");
+	getStream("rickfrantz");
+
+	//Ekko
+	getStream("maxskeproductions");
+
+	//Elise
+
+	//Evelynn
+	getStream("keiozin");
+
+	//Limpando a array $streamers
+	
+	
+	
+
+	//Ezreal
+	getStream("ezrealblindado");
+
+	//Fiddlesticks
+	getStream("fearthesticks");
+
+	//Fiora
+	getStream("forgottenproject");
+	getStream("polar_hugs");
+
+	//Fizz
+
+	//Galio
+
+	//Gangplank
+	getStream("solarbacca");
+	getStream("gpgustavo1");
+	getStream("tobiasfate");
+	getStream("shygo");
+	getStream("misteregg1");
+
+	//Garen
+	getStream("riste");
+
+	//Gnar
+	getStream("thingintheice_");
+	getStream("mrpopper");
+
+	//Gragas
+	getStream("panunulol");
+	getStream("gragolandia1");
+	getStream("woodyfruity");
+
+	//Graves
+	getStream("iwantmycigar");
+
+	//Hecarim
+	getStream("dallasmmbr");
+	getStream("0jugger");
+
+	//Heimerdinger
+	getStream("heisendongna");
+
+	//Illaoi
+	getStream("shock_dog");
+
+	//Limpando a array $streamers
+	
+	
+	
+
+	//Irelia
+
+	//Ivern
+
+	//Janna
+	getStream("vento_ventania");
+
+	//Jarvan IV
+
+	//Jax
+	getStream("nicklink2");
+
+	//Jayce
+	getStream("fmjayce");
+	getStream("holdemhammers");
+
+	//Jhin
+	getStream("ikeepittaco");
+
+	//Jinx
+
+	//Kai'sa
+
+	//Kalista
+
+	//Karma
+
+	//Karthus
+	getStream("smurfdomuca");
+
+	//Kassadin
+	getStream("permabanxd");
+	getStream("milkbarr");
+
+	//Katarina
+	getStream("kat_life");
+	getStream("katevolved");
+	getStream("srdogg");
+	getStream("gamergirl");
+	getStream("katarina__bot");
+	getStream("flyerbeklol");
+	getStream("kaitorlol");
+
+	//Kayle
+	getStream("letkaylescale");
+	getStream("kayle_1v9");
+
+	//Kayn
+	getStream("karasmai");
+
+	//Kennen
+	getStream("slicktv");
+
+	//Limpando a array $streamers
+	
+	
+	
+
+	//Kha'Zix
+	getStream("kami_khazix");
+	getStream("gamergirl1_lol");
+
+	//Kled
+	getStream("fioramech");
+
+	//Kog'Maw
+
+	//Le'Blanc
+	getStream("bobqinxd");
+
+	//Lee Sin
+
+	//Leona
+
+	//Lissandra
+	getStream("elsa_of_garendel");
+
+	//Lucian
+
+	//Lulu
+
+	//Lux
+
+	//Malphite
+
+	//Malzahar
+
+	//Maokai
+	getStream("aizolol");
+
+	//Master Yi
+	getStream("cowsep");
+	getStream("silenceedgaf");
+	getStream("danijrm");
+	getStream("themissingward");
+
+	//Miss Fortune
+
+	//Mordekaiser
+	getStream("kaizermordelol");
+
+	//Morgana
+
+	//Nami
+
+	//Nasus
+	getStream("daggerkill");
+	getStream("marlonjlp");
+
+	//Nautilus
+
+	//Neeko
+
+	//Nidalee
+	getStream("cougarabuser");
+	getStream("tuomaskoo");
+
+	//Nocturne
+
+	//Nunu
+	getStream("keshaeuw");
+
+	//Olaf
+	getStream("olaf_only");
+
+	//Oriana
+
+	//Ornn
+
+	//Pantheon
+	getStream("keegunlol");
+	getStream("spear_shot");
+
+	//Limpando a array $streamers
+	
+	
+	
+
+	//Poppy
+	getStream("tacticianix");
+	getStream("dalvenger");
+
+	//Pyke
+	getStream("xdavemon");
+	getStream("hanjarolol");
+
+	//Qiyana
+
+	//Quinn
+	getStream("quinnad");
+
+	//Rakan
+
+	//Rammus
+	getStream("lordsemilol");
+
+	//Rek'Sai
+
+	//Renekton
+	getStream("godrekton_");
+
+	//Rengar
+	getStream("dekar173");
+	getStream("orengaar");
+	getStream("scrubnoob");
+	getStream("onlyrengar");
+	getStream("rengarabuser");
+	getStream("rengarjones");
+
+	//Riven
+	getStream("shy_eleven");
+	getStream("surskity");
+	getStream("secillia");
+	getStream("dududuelista");
+
+	//Rumble
+	getStream("wentrumble");
+	getStream("officiallooter");
+
+	//Limpando a array $streamers
+	
+	
+	
+
+	//Ryze
+
+	//Sejuani
+
+	//Shaco
+	getStream("pinkwardlol");
+	getStream("chaseshaco");
+	getStream("desperateshaco");
+	getStream("igniteclone");
+	getStream("shaclone");
+
+	//Shen
+	getStream("shending_help");
+	getStream("petuthebeast");
+
+	//Shyvana
+	getStream("veralion");
+
+	//Singed
+	getStream("minishcap1");
+	getStream("singed420");
+	getStream("tommy309");
+	getStream("mynameiscbc");
+	getStream("sirhcez");
+	getStream("dragaodekomodo");
+	getStream("leo_chem");
+	getStream("proxyginger");
+
+	//Sion
+	getStream("thebausffs");
+
+	//Sivir
+
+	//Skarner
+	getStream("merthos_");
+	getStream("0jugger");
+
+	//Limpando a array $streamers
+	
+	
+	
+
+	//Sona
+
+	//Soraka
+
+	//Swain
+
+	//Sylas
+
+	//Syndra
+	getStream("sepekuu");
+
+	//Tahm Kench
+
+	//Taliyah
+
+	//Talon
+	getStream("yamikazexz");
+	getStream("higuilty");
+	getStream("eoba");
+	getStream("cawabanga");
+	getStream("talonlonfarm");
+	getStream("dougzdisney");
+	getStream("toih");
+	getStream("fwiizone");
+
+	//Taric
+	getStream("tavinisboosted");
+
+	//Teemo
+	getStream("ipav999");
+	getStream("arthur_lanches");
+	getStream("manco1");
+	getStream("xblotter");
+	getStream("yang2101y");
+
+	//Limpando a array $streamers
+	
+	
+	
+
+	//Thresh
+
+	//Tristana
+
+	//Trundle
+
+	//Tryndamere
+	getStream("foggedftw2");
+	getStream("yasukeh");
+	getStream("kako");
+	getStream("wyzdm");
+	getStream("stktirano");
+	getStream("goodguygarry");
+
+	//Twisted Fate
+	getStream("tfvini");
+	getStream("espirtf");
+
+	//Twitch
+	getStream("ratirl");
+	getStream("alonixlol");
+
+	//Udyr
+	getStream("metasolaray");
+	getStream("fanpi2");
+
+	//Urgot
+
+	//Varus
+
+	//Vayne
+	getStream("g4non_games");
+
+	//Veigar
+	getStream("djswagpants");
+
+	//Vel'Koz
+	getStream("azzapp");
+
+	//Vi
+
+	//Viktor
+	getStream("dunlol");
+	getStream("zane_prodigy");
+
+	//Vladimir
+	getStream("elite500");
+	getStream("paacha");
+
+	//Volibear
+	getStream("cookiemanman");
+
+	//Limpando a array $streamers
+	
+	
+	
+
+	//Warwick
+	getStream("lolparnellyx");
+
+	//Wukong
+	getStream("harambe");
+	getStream("braindeadwukongotp");
+
+	//Xayah
+
+	//Xerath
+
+	//Xin Zhao
+
+	//Yasuo
+	getStream("yassuo");
+	getStream("blasteerlol");
+	getStream("mikecomtrema");
+	getStream("srdogg");
+
+	//Yorick
+	getStream("ghoulguy");
+	getStream("tipsyz");
+
+	//Yuumi
+
+	//Zac
+
+	//Zed
+	getStream("lacerration");
+	getStream("llstylish");
+	getStream("zaionlol");
+	getStream("emceeheat");
+	getStream("jgdiff1");
+
+	//Ziggs
+
+	//Zilean
+
+	//Zoe
+	getStream("qshiroo");
+
+	//Zyra
+	getStream("melyn");
+
+	//Limpando a array $streamers
 	curlMulti();
+	
+	
 	?>
 
 <!-- Aatrox -->
@@ -618,7 +1103,7 @@ foreach($twitchApi as $apis){
 		<img src="img/80px-JaxSquare.png" alt="Jax"> <br>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
-		 <i>Sem mono por enquanto</i>
+		 <?php addStream("nicklink2", "Nicklink", "https://br.op.gg/summoner/userName=Nick+link"); ?>
 
 	</div>
 
@@ -756,6 +1241,7 @@ foreach($twitchApi as $apis){
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
 		 <?php addStream("feedaboi", "FeedaBoi", "https://na.op.gg/summoner/userName=feedaboi"); ?>
+		 <?php addStream("fioramech", "Fiora Mechanics", "https://br.op.gg/summoner/userName=FIORA+MECHANICS"); ?>
 
 	</div>
 
@@ -1155,6 +1641,7 @@ foreach($twitchApi as $apis){
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
 		 <?php addStream("minishcap1", "Minishcap1", "https://na.op.gg/summoner/userName=Minishcap1"); ?>
+		 <?php addStream("singed420", "singed420", "https://na.op.gg/summoner/userName=singed420"); ?>
 		 <?php addStream("tommy309", "Tommy309", "https://na.op.gg/summoner/userName=tommy309"); ?>
 		 <?php addStream("mynameiscbc", "CBC", "https://na.op.gg/summoner/userName=CBC"); ?>
 		 <?php addStream("sirhcez", "SirhcEz", "https://na.op.gg/summoner/userName=chriseypoo+"); ?>
@@ -1327,7 +1814,6 @@ foreach($twitchApi as $apis){
 		 <?php addStream("wyzdm", "WyzDM", "https://na.op.gg/summoner/userName=Trynds+R+Us"); ?>
 		 <?php addStream("stktirano", "Tirano", "https://br.op.gg/summoner/userName=Tirano+e+Botando"); ?>
 		 <?php addStream("goodguygarry", "GoodGuyGarry", "https://na.op.gg/summoner/userName=GOOD+GUY+GARRY"); ?>
-		 <?php addStream("ullleh", "Ulleh", "https://euw.op.gg/summoner/userName=%CE%A8+PepeLaugh+%CE%A8"); ?>
 	</div>
 
 <!-- TWISTED FATE -->
@@ -1356,6 +1842,15 @@ foreach($twitchApi as $apis){
 		 <br>
 		 <?php addStream("metasolaray", "MetaSolaray", "https://na.op.gg/summoner/userName=metasolaray"); ?>
 		 <?php addStream("fanpi2", "Fanpi", "https://br.op.gg/summoner/userName=fanpi"); ?>
+
+	</div>
+
+	<!-- URGOT -->
+	<div class="container" id="urgot">
+		<img src="img/80px-UrgotSquare.png" alt="Urgot"> <br>
+		<!-- <h2 id="monos">Monos:</h2> -->
+		 <br>
+		 <i>Sem mono por enquanto</i>
 
 	</div>
 
