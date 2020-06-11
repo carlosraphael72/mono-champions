@@ -29,14 +29,155 @@
 		<option value="amumu">Amumu</option>
 		<option value="anivia">Anivia</option>
 		<option value="annie">Annie</option>
+		<option value="aphelios">Aphelios</option>
 		<option value="ashe">Ashe</option>
+		<option value="aurelionsol">Aurelion Sol</option>
+		<option value="azir">Azir</option>
+		<option value="bardo">Bardo</option>
+		<option value="blitzcrank">Blitzcrank</option>
+		<option value="brand">Brand</option>
+		<option value="braum">Braum</option>
+		<option value="caitlyn">Caitlyn</option>
+		<option value="camille">Camille</option>
+		<option value="cassiopeia">Cassiopeia</option>
+		<option value="chogath">Cho'Gath</option>
+		<option value="corki">Corki</option>
+		<option value="darius">Darius</option>
+		<option value="diana">Diana</option>
+		<option value="drmundo">Dr. Mundo</option>
+		<option value="draven">Draven</option>
+		<option value="ekko">Ekko</option>
+		<option value="elise">Elise</option>
+		<option value="evelynn">Evelynn</option>
+		<option value="ezreal">Ezreal</option>
+		<option value="fiddlesticks">Fiddlesticks</option>
+		<option value="fiora">Fiora</option>
+		<option value="fizz">Fizz</option>
+		<option value="galio">Galio</option>
+		<option value="gangplank">Gangplank</option>
+		<option value="garen">Garen</option>
+		<option value="gnar">Gnar</option>
+		<option value="gragas">Gragas</option>
+		<option value="graves">Graves</option>
+		<option value="hecarim">Hecarim</option>
+		<option value="heimerdinger">Heimerdinger</option>
+		<option value="illaoi">Illaoi</option>
+		<option value="irelia">Irelia</option>
+		<option value="ivern">Ivern</option>
+		<option value="janna">Janna</option>
+		<option value="jarvaniv">Jarvan IV</option>
+		<option value="jax">Jax</option>
+		<option value="jayce">Jayce</option>
+		<option value="jhin">Jhin</option>
+		<option value="jinx">Jinx</option>
+		<option value="kaisa">Kai'sa</option>
+		<option value="kalista">Kalista</option>
+		<option value="karma">Karma</option>
+		<option value="karthus">Karthus</option>
+		<option value="kassadin">Kassadin</option>
+		<option value="katarina">Katarina</option>
+		<option value="kayle">Kayle</option>
+		<option value="kayn">Kayn</option>
+		<option value="kennen">Kennen</option>
+		<option value="khazix">Kha'Zix</option>
+		<option value="kindred">Kindred</option>
+		<option value="kled">Kled</option>
+		<option value="kogmaw">Kog'Maw</option>
+		<option value="leblanc">Leblanc</option>
+		<option value="leesin">Lee Sin</option>
+		<option value="leona">Lissandra</option>
+		<option value="lucian">Lucian</option>
+		<option value="lulu">Lulu</option>
+		<option value="lux">Lux</option>
+		<option value="malphite">Malphite</option>
+		<option value="malzahar">Malzahar</option>
+		<option value="maokai">Maokai</option>
+		<option value="masteryi">Master Yi</option>
+		<option value="missfortune">Miss Fortune</option>
+		<option value="mordekaiser">Mordekaiser</option>
+		<option value="morgana">Morgana</option>
+		<option value="nami">Nami</option>
+		<option value="nasus">Nasus</option>
+		<option value="nautilus">Nautilus</option>
+		<option value="neeko">Neeko</option>
+		<option value="nidalee">Nidalee</option>
+		<option value="nocturne">Nocturne</option>
+		<option value="nunu">Nunu</option>
+		<option value="olaf">Olaf</option>
+		<option value="orianna">Orianna</option>
+		<option value="ornn">Ornn</option>
+		<option value="pantheon">Pantheon</option>
+		<option value="poppy">Poppy</option>
+		<option value="pyke">Pyke</option>
+		<option value="qiyana">Qiyana</option>
+		<option value="quinn">Quinn</option>
+		<option value="rakan">Rakan</option>
+		<option value="rammus">Rammus</option>
+		<option value="reksai">Rek'Sai</option>
+		<option value="renekton">Renekton</option>
+		<option value="rengar">Rengar</option>
+		<option value="riven">Riven</option>
+		<option value="rumble">Rumble</option>
+		<option value="ryze">Ryze</option>
+		<option value="sejuani">Sejuani</option>
+		<option value="senna">Senna</option>
+		<option value="sett">Sett</option>
+		<option value="shaco">Shaco</option>
+		<option value="shen">Shen</option>
+		<option value="shyvana">Shyvana</option>
+		<option value="singed">Singed</option>
+		<option value="sion">Sion</option>
+		<option value="sivir">Sivir</option>
+		<option value="skarner">Skarner</option>
+		<option value="sona">Sona</option>
+		<option value="soraka">Soraka</option>
+		<option value="swain">Swain</option>
+		<option value="sylas">Sylas</option>
+		<option value="syndra">Syndra</option>
+		<option value="tahmkench">Tahm Kench</option>
+		<option value="taliyah">Taliyah</option>
+		<option value="talon">Talon</option>
+		<option value="taric">Taric</option>
+		<option value="teemo">Teemo</option>
+		<option value="thresh">Thresh</option>
+		<option value="tristana">Tristana</option>
+		<option value="trundle">Trundle</option>
+		<option value="tryndamere">Todos</option>
+		<option value="twistedfate">Twisted Fate</option>
+		<option value="twitch">Twitch</option>
+		<option value="udyr">Udyr</option>
+		<option value="urgot">Urgot</option>
+		<option value="varus">Varus</option>
+		<option value="vayne">Vayne</option>
+		<option value="veigar">Veigar</option>
+		<option value="velkoz">Vel'Koz</option>
+		<option value="vi">Vi</option>
+		<option value="viktor">Viktor</option>
+		<option value="vladimir">Vladimir</option>
+		<option value="volibear">Volibear</option>
+		<option value="warwick">Warwick</option>
+		<option value="wukong">Wugonk</option>
+		<option value="xayah">Xayah</option>
+		<option value="xerath">Xerath</option>
+		<option value="xinzhao">Xin Zhao</option>
+		<option value="yasuo">Yasuo</option>
+		<option value="yorick">Yorick</option>
+		<option value="yuumi">Yuumi</option>
+		<option value="zac">Zac</option>
+		<option value="zed">Zed</option>
+		<option value="ziggs">Ziggs</option>
+		<option value="zilean">Zilean</option>
+		<option value="zoe">Zoe</option>
+		<option value="zyra">Zyra</option>
+
+
 	</select>
 	<input id="btnPesquisa" type="button"  value="Pesquisar Monos" onclick="filtrar()">
 
 
 <div id="corpo">
 	<?php
-	$test = false;
+	$test = true;
 	$streamers = array();
 	$multiCurl = array();
 	$result = array();
@@ -77,7 +218,7 @@
 		}
 		
 		curl_multi_close($mh);
-		print_r($twitchApi);
+		//print_r($twitchApi);
 
 		/*for($i = 0; $i < count($twitchApi); $i++){
 		$id[$i] = array_map(function($item){
@@ -112,9 +253,9 @@
 		//$userName = $twitchApi['data'];
 			print_r($value);
 		if (strtolower($value) == $stream) {
-			echo '<span style="color:rgb(0, 255, 0);">ONLINE</span>';
+			echo '<h1 style="color:rgb(0, 255, 0);">ONLINE</h1>';
 		}else{
-			echo '<span style="color:rgb(255, 0, 0);">OFFLINE</span>';
+			echo '<h1 style="color:rgb(255, 0, 0);">OFFLINE</h1>';
 		}}
 	}*/
 foreach($twitchApi as $apis){
@@ -129,9 +270,9 @@ foreach($twitchApi as $apis){
 						foreach ($array as $key => $value) {
 							if ($key == "user_name") {
 								if (strtolower($value) == $stream) {
-									echo '<span style="color:rgb(0, 255, 0);">ONLINE</span>';
+									echo '<h1 style="color:rgb(0, 255, 0);">ONLINE</h1>';
 								}else{
-									//echo '<span style="color:rgb(255, 0, 0);">OFFLINE</span>';
+									//echo '<h1 style="color:rgb(255, 0, 0);">OFFLINE</h1>';
 								}
 							} else{
 								//echo "Não foi possivel encontrar a chave user_name";
@@ -149,15 +290,15 @@ foreach($twitchApi as $apis){
 		//echo "twitchApi não é uma array";
 	}
 	/*if ( $keys[$i] == 'user_name'){
-		//echo '<span style="color:rgb(0, 255, 0);">ONLINE</span>';
+		//echo '<h1 style="color:rgb(0, 255, 0);">ONLINE</h1>';
 		if ($id[0] == $lol) {
 			
 		} else{
-			//echo '<span style="color:rgb(255, 0, 0);">OFFLINE</span>';
+			//echo '<h1 style="color:rgb(255, 0, 0);">OFFLINE</h1>';
 		}
 	//	
 	} else{
-		//echo '<span style="color:rgb(255, 0, 0);">OFFLINE</span>';
+		//echo '<h1 style="color:rgb(255, 0, 0);">OFFLINE</h1>';
 	}*/
 }
 }
@@ -166,7 +307,7 @@ foreach($twitchApi as $apis){
 		global $test;
 		
 		if($test == true){
-		echo '<img id="twitch_icon" src="img/twitch1.png"><a id="link" href="https://www.twitch.tv/'.$stream .'" target="_blank">';echo $nick; echo '</a>'; checkStream($stream); echo '<a href="'. $opgg . '" target="_blank"><img id="linkopgg" src="img/op.gg.png"></a> <br>';
+		echo '<img id="twitch_icon" src="img/twitch1.png"><a id="link" href="https://www.twitch.tv/'.$stream .'" target="_blank">';echo $nick; echo '</a>'; /*checkStream($stream);*/ echo '<a href="'. $opgg . '" target="_blank"><img id="linkopgg" src="img/op.gg.png"></a> <br>';
 	}else{
 		echo "erro";
 	}
@@ -230,7 +371,7 @@ foreach($twitchApi as $apis){
 
 	//Caitlyn
 
-	//Camile
+	//Camille
 	getStream("cree654");
 	getStream("drututt");
 
@@ -692,7 +833,7 @@ foreach($twitchApi as $apis){
 	getStream("melyn");
 
 	//Limpando a array $streamers
-	curlMulti();
+	//curlMulti();
 	
 	
 	?>
@@ -701,176 +842,228 @@ foreach($twitchApi as $apis){
 
 	<div class="container" id="aatrox" >
 		<img class="icone" src="img/80px-AatroxSquare.png" alt="Aatrox" onclick="clickarIcone('aatrox')"> <br>
+		<h1 id="championName">Aatrox</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
 		 <div id="streamers">
 		 <?php addStream("mattious_", "Mattious", "https://euw.op.gg/summoner/userName=Mattious"); ?>
-		</div>
+	</div>
 	</div>
 
 	<!-- Ahri -->
 		<div class="container" id="ahri">
 		<img class="icone" src="img/80px-AhriSquare.png" alt="Ahri" onclick="clickarIcone('ahri')"> <br>
+		<h1 id="championName">Ahri</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
 		 <div id="streamers">
 		 <?php addStream("wavey", "Wavey", "https://euw.op.gg/summoner/userName=wavey"); ?>
 		 <?php addStream("megaatronn", "Megatronn", "https://br.op.gg/summoner/userName=Megatronn"); ?>
 		 <?php addStream("excaliberprime", "ExcaliberPrime", "https://na.op.gg/summoner/userName=excaliberprime"); ?>
-		 </div>
+	</div>
 	</div>
 
 	<!-- AKALI -->
 	<div class="container" id="akali">
 		<img class="icone" src="img/80px-AkaliSquare.png" alt="Akali" onclick="clickarIcone('akali')"> <br>
+		<h1 id="championName">Akali</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
 		 <div id="streamers">
 		 <?php addStream("dockan12000", "Dockan", "https://br.op.gg/summoner/userName=DOCK%C3%81N"); ?>
 		 <?php addStream("licwit", "Licwit", "https://euw.op.gg/summoner/userName=Licwit"); ?>
-		 </div>
+	</div>
 	</div>
 
 	<!-- ALISTAR -->
 	<div class="container" id="alistar">
-		<img src="img/80px-AlistarSquare.png" alt="Alistar"> <br>
+		<img class="icone" src="img/80px-AlistarSquare.png" alt="Alistar" onclick="clickarIcone('alistar')"> <br>
+		<h1 id="championName">Alistar</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("alicopter", "Alicopter", "https://na.op.gg/summoner/userName=Alicopter"); ?>
 		 <?php addStream("terminhaider", "TerminHaider", "https://na.op.gg/summoner/userName=TerminHaider"); ?>
+	</div>
 	</div>
 
 	<!-- AMUMU -->
 	<div class="container" id="amumu">
-		<img src="img/80px-AmumuSquare.png" alt="Amumu"> <br>
+		<img class="icone" src="img/80px-AmumuSquare.png" alt="Amumu" onclick="clickarIcone('amumu')"> <br>
+		<h1 id="championName">Amumu</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("infermaipe", "Infermaipe", "https://br.op.gg/summoner/userName=Infermaipe"); ?>
-
-		</div>
+	</div>
+	</div>
 
 	<!-- ANIVIA -->
 		<div class="container" id="anivia">
-		<img src="img/80px-AniviaSquare.png" alt="Anivia"> <br>
+		<img class="icone" src="img/80px-AniviaSquare.png" alt="Anivia" onclick="clickarIcone('anivia')"> <br>
+		<h1 id="championName">Anivia</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("dj_y4ssin", "Y4ssin", "https://na.op.gg/summoner/userName=dj+y4ssin"); ?>
 		 <?php addStream("noname_justin", "NoNameJ", "https://euw.op.gg/summoner/userName=NoNameJ"); ?>
 		 <?php addStream("trizze", "Trizze", "https://euw.op.gg/summoner/userName=trizze"); ?>		
+	</div>
 	</div>
 
 
 	<!-- Annie -->
 	<div class="container" id="annie">
-		<img src="img/80px-AnnieSquare.png" alt="Annie"> <br>
+		<img class="icone" src="img/80px-AnnieSquare.png" alt="Annie" onclick="clickarIcone('annie')"> <br>
+		<h1 id="championName">Annie</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("anniebot", "Annie Bot", "https://na.op.gg/summoner/userName=anniebot"); ?>
 		 <?php// addStream("pandaannielol", "Panda Annie", "https://oce.op.gg/summoner/userName=Panda+Annie"); ?>	
+	</div>
+	</div>
+
+<!-- APHELIOS -->
+<div class="container" id="aphelios">
+		<img class="icone" src="img/80px-ApheliosSquare.png" alt="Aphelios" onclick="clickarIcone('aphelios')"> <br>
+		<h1 id="championName">Aphelios</h1>
+		<!-- <h2 id="monos">Monos:</h2> -->
+		 <br>
+		 <div id="streamers">
+		 <i>Sem mono por enquanto</i>
+	</div>
 	</div>
 
 	<!-- ASHE -->
 	<div class="container" id="ashe">
-		<img src="img/80px-AsheSquare.png" alt="Ashe"> <br>
+		<img class="icone" src="img/80px-AsheSquare.png" alt="Ashe" onclick="clickarIcone('ashe')"> <br>
+		<h1 id="championName">Ashe</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 	<!-- AURELION SOL -->
 	<div class="container" id="aurelionsol">
-		<img src="img/80px-Aurelion_SolSquare.png" alt="Aurelion Sol"> <br>
+		<img class="icone" src="img/80px-Aurelion_SolSquare.png" alt="Aurelion Sol" onclick="clickarIcone('aurelionsol')"> <br>
+		<h1 class="nomeAurelionSol" id="championName">Aurelion Sol</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("iolkaida", "Olkaida", "https://br.op.gg/summoner/userName=Olkaida"); ?>	
-		 <?php addStream("lyaphine", "Lyaphine", "https://euw.op.gg/summoner/userName=lyaphine"); ?>	
+		 <?php addStream("lyaphine", "Lyaphine", "https://euw.op.gg/summoner/userName=lyaphine"); ?>
+	</div>	
 	</div>
 
 	<!-- AZIR -->
 	<div class="container" id="azir">
-		<img src="img/80px-AzirSquare.png" alt="Azir"> <br>
+		<img class="icone" src="img/80px-AzirSquare.png" alt="Azir" onclick="clickarIcone('azir')"> <br>
+		<h1 id="championName">Azir</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("fullsand", "Full Sand", "https://na.op.gg/summoner/userName=Full+Sand"); ?>
 		 <?php addStream("body_those_fools", "Body Those Fools", "https://na.op.gg/summoner/userName=Body+Those+Fools"); ?>
 		 <?php addStream("kzykendy", "Kzykendy", "https://na.op.gg/summoner/userName=kzykendy"); ?>
-</div>
+	</div>
+	</div>
 
 	<!-- BARDO -->
-<div class="container" id="bardo">
-		<img src="img/80px-BardSquare.png" alt="Bardo"> <br>
+	<div class="container" id="bardo">
+		<img class="icone" src="img/80px-BardSquare.png" alt="Bardo" onclick="clickarIcone('bardo')"> <br>
+		<h1 id="championName">Bardo</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("cheed", "Cheed", "https://br.op.gg/summoner/userName=im+cheed"); ?>
-</div>
+	</div>
+	</div>
 
 <!-- BLITZCRANK -->
 <div class="container" id="blitzcrank">
-		<img src="img/80px-BlitzcrankSquare.png" alt="Blitzcrank"> <br>
+		<img class="icone" src="img/80px-BlitzcrankSquare.png" alt="Blitzcrank" onclick="clickarIcone('blitzcranck')"> <br>
+		<h1 id="championName">Blitzcrank</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("padrejoselol", "PadreJoseLOL", "https://br.op.gg/summoner/userName=XXT+PadreJose"); ?>
 		 <?php addStream("scrandor", "Scrandor", "https://na.op.gg/summoner/userName=Scrandor"); ?>
-</div>
+	</div>
+	</div>
 
 <!-- BRAND -->
 <div class="container" id="brand">
-		<img src="img/80px-BrandSquare.png" alt="Brand"> <br>
+		<img class="icone" src="img/80px-BrandSquare.png" alt="Brand" onclick="clickarIcone('brand')"> <br>
+		<h1 id="championName">Brand</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("ferkzmainbrandbr", "Ferkz", "https://br.op.gg/summoner/userName=ferkz"); ?>
-</div>
+	</div>
+	</div>
 
 <!-- BRAUM -->
 	<div class="container" id="braum">
-		<img src="img/80px-BraumSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-BraumSquare.png" alt="Braum" onclick="clickarIcone('braum')"> <br>
+		<h1 id="championName">Braum</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- CAITLYN -->
 	<div class="container" id="caitlyn">
-		<img src="img/80px-CaitlynSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-CaitlynSquare.png" alt="Caitlyn" onclick="clickarIcone('caitlyn')"> <br>
+		<h1 id="championName">Caitlyn</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- CAMILLE -->
 	<div class="container" id="camille">
-		<img src="img/80px-CamilleSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-CamilleSquare.png" alt="Camille" onclick="clickarIcone('camille')"> <br>
+		<h1 id="championName">Camille</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("cree654", "Cree654", "https://na.op.gg/summoner/userName=cree654"); ?>
 		 <?php addStream("drututt", "Drututt", "https://euw.op.gg/summoner/userName=twtv+drututt"); ?>
-
+	</div>
 	</div>
 
 <!-- CASSIOPEIA -->
 	<div class="container" id="cassiopeia">
-		<img src="img/80px-CassiopeiaSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-CassiopeiaSquare.png" alt="Cassiopeia" onclick="clickarIcone('cassiopeia')"> <br>
+		<h1 id="championName">Cassiopeia</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("devilcass", "DevilCass", "https://na.op.gg/summoner/userName=cass"); ?>
-
+	</div>
 	</div>
 
 <!-- CHO'GATH -->
 	<div class="container" id="chogath">
-		<img src="img/80px-ChoGathSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-ChoGathSquare.png" alt="Cho'Gath" onclick="clickarIcone('chogath')"> <br>
+		<h1 id="championName">Cho'Gath</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("alex_blais", "Alex Blais", "https://na.op.gg/summoner/userName=Alex+Blais"); ?>
-
+	</div>
 	</div>
 
 <!-- CORKI -->
 	<div class="container" id="corki">
-		<img src="img/80px-CorkiSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-CorkiSquare.png" alt="Corki" onclick="clickarIcone('corki')"> <br>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
 		 <i>Sem mono por enquanto</i>
@@ -1456,7 +1649,7 @@ foreach($twitchApi as $apis){
 	</div>
 
 <!-- ORIANNA -->
-	<div class="container" id="oriana">
+	<div class="container" id="orianna">
 		<img src="img/80px-OriannaSquare.png" alt="Icon"> <br>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
@@ -1604,6 +1797,22 @@ foreach($twitchApi as $apis){
 		 <i>Sem mono por enquanto</i>
 
 	</div>
+
+<!-- SENNA -->
+<div class="container" id="senna">
+		<img src="img/80px-SennaSquare.png" alt="Senna"> <br>
+		<!-- <h2 id="monos">Monos:</h2> -->
+		 <br>
+		 <i>Sem mono por enquanto</i>
+ </div>
+
+<!-- SETT -->
+<div class="container" id="sett">
+		<img src="img/80px-SettSquare.png" alt="Sett"> <br>
+		<!-- <h2 id="monos">Monos:</h2> -->
+		 <br>
+		 <i>Sem mono por enquanto</i>
+ </div>
 
 <!-- SHACO -->
 	<div class="container" id="shaco">

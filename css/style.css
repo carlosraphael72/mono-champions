@@ -17,10 +17,11 @@ div#streamers{
 
 div#corpo{
 	display: grid;
-	grid-template-areas: "div div div";
+	grid-template-areas: "div div div div";
 	position: relative;
 	padding-left: 100px;
 	padding-right: 100px;
+	padding-top: 50px;
 }
 
 div.container{
@@ -43,6 +44,7 @@ img{
 
 img.icone{
 	top: 5px;
+	display: block;
 }
 
 img#logo{
@@ -101,4 +103,13 @@ span{
 	display: inline-block;
 	top: -25px;
 	left: 10px;
+}
+h1#championName{
+	font-family: 'PT Serif', Serif;
+	font-size: 16px;
+	position: relative;
+	display: block;
+	text-align: inline;
+	top: -10px;
+	left: 112px;
 }

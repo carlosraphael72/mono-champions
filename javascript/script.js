@@ -31,14 +31,17 @@ function filtrar(){
 function clickarIcone(champion) {
     var container = document.getElementById(champion);
     var streamers = document.querySelector("div#"+champion+" > div#streamers");
+    var nome = document.querySelector("div#"+champion+" > h1#championName");
     if (streamers.style.display != 'block') {
         container.style.margin = "5px";
         container.style.width = "350px";
       //  container.style.display = "block";
       //  container.style.position = "relative";
         container.style.backgroundColor = "grey";
-
-    streamers.style.display = 'block';
+        streamers.style.display = 'block';
+        streamers.style.marginTop = '10px';
+        nome.style.display = 'inline';
+        nome.style.left = '112px';
 }else{
     streamers.style.display = 'none';
 
