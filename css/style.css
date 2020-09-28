@@ -17,7 +17,7 @@ div#streamers{
 
 div#corpo{
 	display: grid;
-	grid-template-areas: "div div div div";
+	grid-template-areas: "div div div";
 	position: relative;
 	padding-left: 100px;
 	padding-right: 100px;
@@ -34,6 +34,9 @@ div.container{
 	display: block;
 	position: relative;
 	background-color: grey;*/
+	width: 350px;
+	margin: 5px;
+	margin-bottom: 50px;
 
 }
 
@@ -45,6 +48,11 @@ img{
 img.icone{
 	top: 5px;
 	display: block;
+}
+
+img.icone:hover {
+	width: 90px;
+	height: 90px;
 }
 
 img#logo{
@@ -88,6 +96,11 @@ h1{
 	color: white;
 }
 
+h1#championName{
+	display: inline;
+	left: 112px;
+}
+
 h2{
 	font-family: 'PT Serif', Serif;
 	display: inline-block;
@@ -108,7 +121,7 @@ h1#championName{
 	font-family: 'PT Serif', Serif;
 	font-size: 16px;
 	position: relative;
-	display: block;
+	display: inline;
 	text-align: inline;
 	top: -10px;
 	left: 112px;

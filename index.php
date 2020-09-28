@@ -142,7 +142,7 @@
 		<option value="thresh">Thresh</option>
 		<option value="tristana">Tristana</option>
 		<option value="trundle">Trundle</option>
-		<option value="tryndamere">Todos</option>
+		<option value="tryndamere">Tryndamere</option>
 		<option value="twistedfate">Twisted Fate</option>
 		<option value="twitch">Twitch</option>
 		<option value="udyr">Udyr</option>
@@ -984,7 +984,7 @@ foreach($twitchApi as $apis){
 
 <!-- BLITZCRANK -->
 <div class="container" id="blitzcrank">
-		<img class="icone" src="img/80px-BlitzcrankSquare.png" alt="Blitzcrank" onclick="clickarIcone('blitzcranck')"> <br>
+		<img class="icone" src="img/80px-BlitzcrankSquare.png" alt="Blitzcrank" onclick="clickarIcone('blitzcrank')"> <br>
 		<h1 id="championName">Blitzcrank</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
@@ -1064,318 +1064,401 @@ foreach($twitchApi as $apis){
 <!-- CORKI -->
 	<div class="container" id="corki">
 		<img class="icone" src="img/80px-CorkiSquare.png" alt="Corki" onclick="clickarIcone('corki')"> <br>
+		<h1 id="championName">Corki</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- DARIUS -->
 	<div class="container" id="darius">
-		<img src="img/80px-DariusSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-DariusSquare.png" alt="Darius" onclick="clickarIcone('darius')"> <br>
+		<h1 id="championName">Darius</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("dystrex", "Dystrex", "https://na.op.gg/summoner/userName=dystrex"); ?>
 		 <?php addStream("donaldthegiant", "DonaldTheGiant", "https://br.op.gg/summoner/userName=fake+mylon"); ?>
 		 <?php addStream("adzioo", "AdziOo", "https://eune.op.gg/summoner/userName=adzioo"); ?>
 		 <?php addStream("ravenborne_", "Ravenborne", "https://euw.op.gg/summoner/userName=ravenb%C3%B3rn"); ?>
 	</div>
+	</div>
 
 <!-- DIANA -->
 	<div class="container" id="diana">
-		<img src="img/80px-DianaSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-DianaSquare.png" alt="Diana" onclick="clickarIcone('diana')"> <br>
+		<h1 id="championName">Diana</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("sdiana2na", "S Diana 2", "https://na.op.gg/summoner/userName=S%20Diana%202"); ?>
 		 <?php addStream("suntail_", "Suntail", "https://na.op.gg/summoner/userName=suntail"); ?>
 		 <?php addStream("xaltofficial", "Xalt", "https://euw.op.gg/summoner/userName=xalt"); ?>
 	</div>
+	</div>
 
 <!-- DR.MUNDO -->
 	<div class="container" id="drmundo">
-		<img src="img/80px-DrMundoSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-DrMundoSquare.png" alt="Dr.Mundo" onclick="clickarIcone('drmundo')">  <br>
+		<h1 id="championName">Dr.Mundo</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("mundo_stream", "Mundo Stream", "https://na.op.gg/summoner/userName=mundo"); ?>
+	</div>
 	</div>
 
 <!-- DRAVEN -->
 	<div class="container" id="draven">
-		<img src="img/80px-DravenSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-DravenSquare.png" alt="Draven" onclick="clickarIcone('draven')"> <br>
+		<h1 id="championName">Draven</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("parnstarzilean", "ParnstarZielan", "https://euw.op.gg/summoner/userName=%CE%A1SZ"); ?>
 		 <?php addStream("rickfrantz", "rickFrantZ", "https://br.op.gg/summoner/userName=DRAV%C3%8BN"); ?>
-
+	</div>
 	</div>
 
 <!-- EKKO -->
 	<div class="container" id="ekko">
-		<img src="img/80px-EkkoSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-EkkoSquare.png" alt="Ekko" onclick="clickarIcone('ekko')"> <br>
+		<h1 id="championName">Ekko</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("maxskeproductions", "Maxske", "https://na.op.gg/summoner/userName=maxske"); ?>
-
+	</div>
 	</div>
 
 <!-- ELISE -->
 	<div class="container" id="elise">
-		<img src="img/80px-EliseSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-EliseSquare.png" alt="Elise" onclick="clickarIcone('elise')"> <br>
+		<h1 id="championName">Elise</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- EVELYNN -->
 	<div class="container" id="evelynn">
-		<img src="img/80px-EvelynnSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-EvelynnSquare.png" alt="Evelynn" onclick="clickarIcone('evelynn')"> <br>
+		<h1 id="championName">Evelynn</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("keiozin", "Keio", "https://br.op.gg/summoner/userName=keio"); ?>
+	</div>
 	</div>
 
 <!-- EZREAL -->
 	<div class="container" id="ezreal">
-		<img src="img/80px-EzrealSquare.png" alt="Ezreal"> <br>
+		<img class="icone" src="img/80px-EzrealSquare.png" alt="Ezreal" onclick="clickarIcone('ezreal')"> <br>
+		<h1 id="championName">Ezreal</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("ezrealblindado", "Ezreal Blindado", "https://br.op.gg/summoner/userName=1kkdeinoc%C3%AAncia"); ?>
-
+	</div>
 	</div>
 
 <!-- FIDDLESTICKS -->
 	<div class="container" id="fiddlesticks">
-		<img src="img/80px-FiddlesticksSquare.png" alt="Fiddlesticks"> <br>
+		<img class="icone" src="img/80px-FiddlesticksSquare.png" alt="Fiddlesticks" onclick="clickarIcone('fiddlesticks')"> <br>
+		<h1 id="championName">Fiddlesticks</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("fearthesticks", "FearTheSticks", "https://na.op.gg/summoner/userName=fearthesticks"); ?>
-
+	</div>
 	</div>
 
 <!-- FIORA -->
 	<div class="container" id="fiora">
-		<img src="img/80px-FioraSquare.png" alt="Fiora"> <br>
+		<img class="icone" src="img/80px-FioraSquare.png" alt="Fiora" onclick="clickarIcone('fiora')"> <br>
+		<h1 id="championName">Fiora</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("forgottenproject", "ForgottenProject", "https://na.op.gg/summoner/userName=ForgottenProject"); ?>
 		 <?php addStream("polar_hugs", "Revenge of Avian", "https://na.op.gg/summoner/userName=Revenge%20of%20Avian"); ?>
-
+	</div>
 	</div>
 
 <!-- FIZZ -->
 	<div class="container" id="fizz">
-		<img src="img/80px-FizzSquare.png" alt="Fizz"> <br>
+		<img class="icone" src="img/80px-FizzSquare.png" alt="Fizz" onclick="clickarIcone('fizz')"> <br>
+		<h1 id="championName">Fizz</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- GALIO -->
 	<div class="container" id="galio">
-		<img src="img/80px-GalioSquare.png" alt="Galio"> <br>
+		<img class="icone" src="img/80px-GalioSquare.png" alt="Galio" onclick="clickarIcone('galio')"> <br>
+		<h1 id="championName">Galio</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- GANGPLANK -->
 	<div class="container" id="gangplank">
-		<img src="img/80px-GangplankSquare.png" alt="Gangplank"> <br>
+		<img class="icone" src="img/80px-GangplankSquare.png" alt="Gangplank" onclick="clickarIcone('gangplank')"> <br>
+		<h1 id="championName">Gangplank</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("solarbacca", "SolarBacca", "https://na.op.gg/summoner/userName=solarbacca"); ?>
 		 <?php addStream("gpgustavo1", "GPGustavo", "https://br.op.gg/summoner/userName=GPGustavo"); ?>
 		 <?php addStream("tobiasfate", "TobiasFate", "https://na.op.gg/summoner/userName=tobiasfate"); ?>
 		 <?php addStream("shygo", "Shygo", "https://br.op.gg/summoner/userName=new+shygo"); ?>
 		 <?php addStream("misteregg1", "MisterEgg", "https://br.op.gg/summoner/userName=misterkegg"); ?>
 	</div>
+	</div>
 
 <!-- GAREN -->
 	<div class="container" id="garen">
-		<img src="img/80px-GarenSquare.png" alt="Garen"> <br>
+		<img class="icone" src="img/80px-GarenSquare.png" alt="Garen" onclick="clickarIcone('garen')"> <br>
+		<h1 id="championName">Garen</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("riste", "riste", "https://na.op.gg/summoner/userName=riste"); ?>
+	</div>
 	</div>
 
 <!-- GNAR -->
 	<div class="container" id="gnar">
-		<img src="img/80px-GnarSquare.png" alt="Gnar"> <br>
+		<img class="icone" src="img/80px-GnarSquare.png" alt="Gnar" onclick="clickarIcone('gnar')"> <br>
+		<h1 id="championName">Gnar</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("thingintheice_", "Thing in The Ice", "https://na.op.gg/summoner/userName=thingintheice"); ?>
 		 <?php addStream("mrpopper", "Mr Popper", "https://na.op.gg/summoner/userName=mr+popper"); ?>
-
+	</div>
 	</div>
 
 <!-- GRAGAS -->
 	<div class="container" id="gragas">
-		<img src="img/80px-GragasSquare.png" alt="Gragas"> <br>
+		<img class="icone" src="img/80px-GragasSquare.png" alt="Gragas" onclick="clickarIcone('gragas')"> <br>
+		<h1 id="championName">Gragas</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("panunulol", "Panunu", "https://na.op.gg/summoner/userName=panunu"); ?>
 		 <?php addStream("gragolandia1", "Gragolandia", "https://br.op.gg/summoner/userName=Gragolandia"); ?>
 		 <?php addStream("woodyfruity", "WoodyFruity", "https://na.op.gg/summoner/userName=TBones"); ?>
 	</div>
+	</div>
 
 <!-- GRAVES -->
 	<div class="container" id="graves">
-		<img src="img/80px-GravesSquare.png" alt="Graves"> <br>
+		<img class="icone" src="img/80px-GravesSquare.png" alt="Graves" onclick="clickarIcone('graves')"> <br>
+		<h1 id="championName">Graves</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("iwantmycigar", "I Want My Cigar", "https://na.op.gg/summoner/userName=i+want+my+cigar"); ?>
+	</div>
 	</div>
 
 <!-- HECARIM -->
 	<div class="container" id="hecarim">
-		<img src="img/80px-HecarimSquare.png" alt="Hecarim"> <br>
+		<img class="icone" src="img/80px-HecarimSquare.png" alt="Hecarim" onclick="clickarIcone('hecarim')"> <br>
+		<h1 id="championName">Hecarim</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("dallasmmbr", "Dallasmmbr", "https://br.op.gg/summoner/userName=Dallasmmbr"); ?>
 		 <?php addStream("0jugger", "Jugger", "https://br.op.gg/summoner/userName=jxggr"); ?>
-
+	</div>
 	</div>
 
 <!-- HEIMERDINGER -->
 	<div class="container" id="heimerdinger">
-		<img src="img/80px-HeimerdingerSquare.png" alt="Heimerdinger"> <br>
+		<img class="icone" src="img/80px-HeimerdingerSquare.png" alt="Heimerdinger" onclick="clickarIcone('heimerdinger')"> <br>
+		<h1 id="championName">Heimerdinger</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("heisendongna", "Heisendong", "https://na.op.gg/summoner/userName=heisendong"); ?>
-
+	</div>
 	</div>
 
 <!-- ILLAOI -->
 	<div class="container" id="illaoi">
-		<img src="img/80px-IllaoiSquare.png" alt="Illaoi"> <br>
+		<img class="icone" src="img/80px-IllaoiSquare.png" alt="Illaoi" onclick="clickarIcone('illaoi')"> <br>
+		<h1 id="championName">Illaoi</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("shock_dog", "SHOCK DOG", "https://br.op.gg/summoner/userName=SHOCK+DOG"); ?>
+	</div>
 	</div>
 
 <!-- IRELIA -->
 	<div class="container" id="irelia">
-		<img src="img/80px-IreliaSquare.png" alt="Irelia"> <br>
+		<img class="icone" src="img/80px-IreliaSquare.png" alt="Irelia" onclick="clickarIcone('irelia')"> <br>
+		<h1 id="championName">Irelia</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- IVERN -->
 	<div class="container" id="ivern">
-		<img src="img/80px-IvernSquare.png" alt="Ivern"> <br>
+		<img class="icone" src="img/80px-IvernSquare.png" alt="Ivern" onclick="clickarIcone('ivern')"> <br>
+		<h1 id="championName">Ivern</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- JANNA -->
 	<div class="container" id="janna">
-		<img src="img/80px-JannaSquare.png" alt="Janna"> <br>
+		<img class="icone" src="img/80px-JannaSquare.png" alt="Janna" onclick="clickarIcone('janna')"> <br>
+		<h1 id="championName">Janna</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("vento_ventania", "Vento", "https://br.op.gg/summoner/userName=vento"); ?>
+	</div>
 	</div>
 
 <!-- JARVAN IV -->
 	<div class="container" id="jarvaniv">
-		<img src="img/80px-JarvanIVSquare.png" alt="Jarvan IV"> <br>
+		<img class="icone" src="img/80px-JarvanIVSquare.png" alt="Jarvan IV" onclick="clickarIcone('jarvaniv')"> <br>
+		<h1 id="championName">Jarvan IV</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- JAX -->
 	<div class="container" id="jax">
-		<img src="img/80px-JaxSquare.png" alt="Jax"> <br>
+		<img class="icone" src="img/80px-JaxSquare.png" alt="Jax" onclick="clickarIcone('jax')"> <br>
+		<h1 id="championName">Jax</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("nicklink2", "Nicklink", "https://br.op.gg/summoner/userName=Nick+link"); ?>
-
 	</div>
-
+	</div>
+	
 <!-- JAYCE -->
 	<div class="container" id="jayce">
-		<img src="img/80px-JayceSquare.png" alt="Jayce"> <br>
+		<img class="icone" src="img/80px-JayceSquare.png" alt="Jayce" onclick="clickarIcone('jayce')"> <br>
+		<h1 id="championName">Jayce</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("fmjayce", "FMJayce", "https://na.op.gg/summoner/userName=Real+FMJayce"); ?>
 		 <?php addStream("holdemhammers", "Holdem", "https://euw.op.gg/summoner/userName=holdem"); ?>
+	</div>
 	</div>
 
 <!-- JHIN -->
 	<div class="container" id="jhin">
-		<img src="img/80px-JhinSquare.png" alt="Jhin"> <br>
+		<img class="icone" src="img/80px-JhinSquare.png" alt="Jhin" onclick="clickarIcone('jhin')"> <br>
+		<h1 id="championName">Jhin</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("ikeepittaco", "IKeepItTaco", "https://na.op.gg/summoner/userName=I+Keep+It+Taco"); ?>
+	</div>
 	</div>
 
 <!-- JINX -->
 	<div class="container" id="jinx">
-		<img src="img/80px-JinxSquare.png" alt="Jinx"> <br>
+		<img class="icone" src="img/80px-JinxSquare.png" alt="Jinx" onclick="clickarIcone('jinx')"> <br>
+		<h1 id="championName">Jinx</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- KAI'SA -->
 	<div class="container" id="kaisa">
-		<img src="img/80px-Kai'SaSquare.png" alt="Kai'Sa"> <br>
+		<img class="icone" src="img/80px-Kai'SaSquare.png" alt="Kai'Sa" onclick="clickarIcone('kaisa')"> <br>
+		<h1 id="championName">Kai'Sa</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- KALISTA -->
 	<div class="container" id="kalista">
-		<img src="img/80px-KalistaSquare.png" alt="Kalista"> <br>
+		<img class="icone" src="img/80px-KalistaSquare.png" alt="Kalista" onclick="clickarIcone('kalista')"> <br>
+		<h1 id="championName">Kalista</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- KARMA -->
 	<div class="container" id="karma">
-		<img src="img/80px-KarmaSquare.png" alt="Karma"> <br>
+		<img class="icone" src="img/80px-KarmaSquare.png" alt="Karma" onclick="clickarIcone('karma')"> <br>
+		<h1 id="championName">Karma</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- KARTHUS -->
 	<div class="container" id="karthus">
-		<img src="img/80px-KarthusSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-KarthusSquare.png" alt="Karthus" onclick="clickarIcone('karthus')"> <br>
+		<h1 id="championName">Karthus</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("smurfdomuca", "Smurf do Muca", "https://br.op.gg/summoner/userName=SMURF+DO+MUCA"); ?>
+	</div>
 	</div>
 
 <!-- KASSADIN -->
 	<div class="container" id="kassadin">
-		<img src="img/80px-KassadinSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-KassadinSquare.png" alt="Kassadin" onclick="clickarIcone('kassadin')"> <br>
+		<h1 id="championName">Kassadin</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("permabanxd", "PermabanXD", "https://euw.op.gg/summoner/userName=Babygirl%20Abuser"); ?>
 		 <?php addStream("milkbarr", "Milkbar", "https://br.op.gg/summoner/userName=SeaH+Milkbar"); ?>
-
+	</div>
 	</div>
 
 <!-- KATARINA -->
 	<div class="container" id="katarina">
-		<img src="img/80px-KatarinaSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-KatarinaSquare.png" alt="Katarina" onclick="clickarIcone('katarina')"> <br>
+		<h1 id="championName">Katarina</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("kat_life", "Kat Life", "https://na.op.gg/summoner/userName=son+of+tree"); ?>
 		 <?php addStream("katevolved", "KatEvolved", "https://na.op.gg/summoner/userName=KatEvolved"); ?> 
 		 <?php addStream("srdogg", "SrDog", "https://br.op.gg/summoner/userName=srdog"); ?>
@@ -1384,373 +1467,466 @@ foreach($twitchApi as $apis){
 		 <?php addStream("flyerbeklol", "Flyerbek", "https://euw.op.gg/summoner/userName=Flyerbek"); ?>
 		 <?php addStream("kaitorlol", "Kaitor", "https://br.op.gg/summoner/userName=kaitor"); ?>
 	</div>
+	</div>
 
 <!-- KAYLE -->
 	<div class="container" id="kayle">
-		<img src="img/80px-KayleSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-KayleSquare.png" alt="Kayle" onclick="clickarIcone('kayle')"> <br>
+		<h1 id="championName">Kayle</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("letkaylescale", "Let Kayle Scale", "https://na.op.gg/summoner/userName=let+kayle+scale"); ?>
 		 <?php addStream("kayle_1v9", "Kayle 1v9", "https://na.op.gg/summoner/userName=kayle+1v9"); ?>
+	</div>
 	</div>
 
 <!-- KAYN -->
 	<div class="container" id="kayn">
-		<img src="img/80px-KaynSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-KaynSquare.png" alt="Kayn" onclick="clickarIcone('kayn')"> <br>
+		<h1 id="championName">Kayn</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("karasmai", "KarasMai", "https://na.op.gg/summoner/userName=KarasmaiBestKayn"); ?>
+	</div>
 	</div>
 
 <!-- KENNEN -->
 	<div class="container" id="kennen">
-		<img src="img/80px-KennenSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-KennenSquare.png" alt="Kennen" onclick="clickarIcone('kennen')"> <br>
+		<h1 id="championName">Kennen</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("slicktv", "slicK", "https://na.op.gg/summoner/userName=slick"); ?>
-
+	</div>
 	</div>
 
 <!-- KHA'ZIX -->
 	<div class="container" id="khazix">
-		<img src="img/80px-kha'ZixSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-kha'ZixSquare.png" alt="Kha'Zix" onclick="clickarIcone('khazix')"> <br>
+		<h1 id="championName">Kha'Zix</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("kami_khazix", "Kami KhaZix", "https://euw.op.gg/summoner/userName=kamik6"); ?>
 		 <?php addStream("gamergirl1_lol", "GamerGirl1", "https://eune.op.gg/summoner/userName=Hugglingfox"); ?>
+	</div>
 	</div>
 
 <!-- KINDRED -->
 	<div class="container" id="kindred">
-		<img src="img/80px-KindredSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-KindredSquare.png" alt="Kindred" onclick="clickarIcone('kindred')"> <br>
+		<h1 id="championName">Kindred</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("forestwithin", "ForestWithin", "https://na.op.gg/summoner/userName=forest"); ?>
+	</div>
 	</div>
 
 <!-- KLED -->
 	<div class="container" id="kled">
-		<img src="img/80px-KledSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-KledSquare.png" alt="Kled" onclick="clickarIcone('kled')"> <br>
+		<h1 id="championName">Kled</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("feedaboi", "FeedaBoi", "https://na.op.gg/summoner/userName=feedaboi"); ?>
 		 <?php addStream("fioramech", "Fiora Mechanics", "https://br.op.gg/summoner/userName=FIORA+MECHANICS"); ?>
-
+	</div>
 	</div>
 
 <!-- KOG'MAW -->
 	<div class="container" id="kogmaw">
-		<img src="img/80px-Kog'MawSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-Kog'MawSquare.png" alt="Kog'Maw" onclick="clickarIcone('kogmaw')"> <br>
+		<h1 id="championName">Kog'Maw</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- LEBLANC -->
 	<div class="container" id="leblanc">
-		<img src="img/80px-LeblancSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-LeblancSquare.png" alt="LeBlanc" onclick="clickarIcone('leblanc')"> <br>
+		<h1 id="championName">LeBlanc</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("bobqinxd", "bobqinXD", "https://na.op.gg/summoner/userName=bobqinXD"); ?>
-
+	</div>
 	</div>
 
 <!-- LEE SIN -->
 	<div class="container" id="leesin">
-		<img src="img/80px-Lee_SinSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-Lee_SinSquare.png" alt="Lee Sin" onclick="clickarIcone('leesin')"> <br>
+		<h1 id="championName">Lee Sin</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- LEONA -->
 	<div class="container" id="leona">
-		<img src="img/80px-LeonaSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-LeonaSquare.png" alt="Leona" onclick="clickarIcone('leona')"> <br>
+		<h1 id="championName">Leona</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- LISSANDRA -->
 	<div class="container" id="lissandra">
-		<img src="img/80px-LissandraSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-LissandraSquare.png" alt="Lissandra" onclick="clickarIcone('lissandra')"> <br>
+		<h1 id="championName">Lissandra</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("elsa_of_garendel", "Elsa of Garendel", "https://na.op.gg/summoner/userName=elsa+of+garendel"); ?>
-
+	</div>
 	</div>
 
 <!-- LUCIAN -->
 	<div class="container" id="lucian">
-		<img src="img/80px-LucianSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-LucianSquare.png" alt="Lucian" onclick="clickarIcone('lucian')"> <br>
+		<h1 id="championName">Lucian</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- LULU -->
 	<div class="container" id="lulu">
-		<img src="img/80px-LuluSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-LuluSquare.png" alt="Lulu" onclick="clickarIcone('lulu')"> <br>
+		<h1 id="championName">Lulu</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- LUX -->
 	<div class="container" id="lux">
-		<img src="img/80px-LuxSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-LuxSquare.png" alt="Lux" onclick="clickarIcone('lux')"> <br>
+		<h1 id="championName">Lux</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- MALPHITE -->
 	<div class="container" id="malphite">
-		<img src="img/80px-MalphiteSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-MalphiteSquare.png" alt="Malphite" onclick="clickarIcone('malphite')"> <br>
+		<h1 id="championName">Malphite</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- MALZAHAR -->
 	<div class="container" id="malzahar">
-		<img src="img/80px-MalzaharSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-MalzaharSquare.png" alt="Malzahar" onclick="clickarIcone('malzahar')"> <br>
+		<h1 id="championName">Malzahar</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- MAOKAI -->
 	<div class="container" id="maokai">
-		<img src="img/80px-MaokaiSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-MaokaiSquare.png" alt="Maokai" onclick="clickarIcone('maokai')"> <br>
+		<h1 id="championName">Maokai</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("aizolol", "Aizo", "https://na.op.gg/summoner/userName=aizo"); ?>
-
+	</div>
 	</div>
 
 <!-- MASTER YI -->
 	<div class="container" id="masteryi">
-		<img src="img/80px-Master_YiSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-Master_YiSquare.png" alt="Master Yi" onclick="clickarIcone('masteryi')"> <br>
+		<h1 id="championName">Master yi</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("cowsep", "Cowsep", "https://na.op.gg/summoner/userName=Cowsep"); ?>
 		 <?php addStream("silenceedgaf", "Silencee", "https://euw.op.gg/summoner/userName=report+silencee"); ?>
 		 <?php addStream("danijrm", "Danijrm", "https://lan.op.gg/summoner/userName=TwitchtvDanijrm"); ?>
 		 <?php addStream("themissingward", "THEMISSINGWARD", "https://na.op.gg/summoner/userName=CRÃZYHEAD"); ?>		 
 	</div>
+	</div>
 
 <!-- MISS FORTUNE -->
 	<div class="container" id="missfortune">
-		<img src="img/80px-MissFortuneSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-MissFortuneSquare.png" alt="Miss Fortune" onclick="clickarIcone('missfortune')"> <br>
+		<h1 id="championName">Miss Fortune</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- MORDEKAISER -->
 	<div class="container" id="mordekaiser">
-		<img src="img/80px-MordekaiserSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-MordekaiserSquare.png" alt="Mordekaiser" onclick="clickarIcone('mordekaiser')"> <br>
+		<h1 id="championName">Mordekaiser</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("kaizermordelol", "Kaizer Morde", "https://na.op.gg/summoner/userName=Kaizer+Morde"); ?>
-
+	</div>
 	</div>
 
 <!-- MORGANA -->
 	<div class="container" id="morgana">
-		<img src="img/80px-MorganaSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-MorganaSquare.png" alt="Morgana" onclick="clickarIcone('morgana')"> <br>
+		<h1 id="championName">Morgana</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- NAMI -->
 	<div class="container" id="nami">
-		<img src="img/80px-NamiSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-NamiSquare.png" alt="Nami" onclick="clickarIcone('nami')"> <br>
+		<h1 id="championName">Nami</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- NASUS -->
 	<div class="container" id="nasus">
-		<img src="img/80px-NasusSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-NasusSquare.png" alt="Nasus" onclick="clickarIcone('nasus')"> <br>
+		<h1 id="championName">Nasus</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("daggerkill", "Daggerkill", "https://br.op.gg/summoner/userName=daggerkill1"); ?>
 		 <?php addStream("marlonjlp", "Marlonjlp", "https://br.op.gg/summoner/userName=marlonjlp"); ?>
-
+	</div>
 	</div>
 
 <!-- NAUTILUS -->
 	<div class="container" id="nautilus">
-		<img src="img/80px-NautilusSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-NautilusSquare.png" alt="Nautilus" onclick="clickarIcone('nautilus')"> <br>
+		<h1 id="championName">Nautilus</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- NEEKO -->
 	<div class="container" id="neeko">
-		<img src="img/80px-NeekoSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-NeekoSquare.png" alt="Neeko" onclick="clickarIcone('neeko')"> <br>
+		<h1 id="championName">Neeko</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("doglightning", "Doglightning", "https://na.op.gg/summoner/userName=ttv%20doglightning"); ?>
-
+	</div>
 	</div>
 
 <!-- NIDALEE -->
 	<div class="container" id="nidalee">
-		<img src="img/80px-NidaleeSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-NidaleeSquare.png" alt="Nidalee" onclick="clickarIcone('nidalee')"> <br>
+		<h1 id="championName">Nidalee</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("cougarabuser", "Couger Abuser", "https://eune.op.gg/summoner/userName=cougar+abuser"); ?>
 		 <?php addStream("tuomaskoo", "Tuomaskoo", "https://euw.op.gg/summoner/userName=Tuomaskoo+xd"); ?>
-
+	</div>
 	</div>
 
 <!-- NOCTURNE -->
 	<div class="container" id="nocturne">
-		<img src="img/80px-NocturneSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-NocturneSquare.png" alt="Nocturne" onclick="clickarIcone('nocturne')"> <br>
+		<h1 id="championName">Nocturne</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- NUNU E WILLUMP -->
 	<div class="container" id="nunu">
-		<img src="img/80px-Nunu_&_WillumpSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-Nunu_&_WillumpSquare.png" alt="Nunu e Willump" onclick="clickarIcone('nunu')"> <br>
+		<h1 id="championName">Nunu e Willump</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("keshaeuw", "Kesha", "https://euw.op.gg/summoner/userName=kesha"); ?>
-
+	</div>
 	</div>
 
 <!-- OLAF -->
 	<div class="container" id="olaf">
-		<img src="img/80px-OlafSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-OlafSquare.png" alt="Olaf" onclick="clickarIcone('olaf')"> <br>
+		<h1 id="championName">Olaf</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("olaf_only", "Olaf Only", "https://euw.op.gg/summoner/userName=Olaf+Only"); ?>
+	</div>
 	</div>
 
 <!-- ORIANNA -->
 	<div class="container" id="orianna">
-		<img src="img/80px-OriannaSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-OriannaSquare.png" alt="Orianna" onclick="clickarIcone('orianna')"> <br>
+		<h1 id="championName">Orianna</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- ORNN -->
 	<div class="container" id="ornn">
-		<img src="img/80px-OrnnSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-OrnnSquare.png" alt="Ornn" onclick="clickarIcone('ornn')"> <br>
+		<h1 id="championName">Ornn</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- PANTHEON -->
 	<div class="container" id="pantheon">
-		<img src="img/80px-PantheonSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-PantheonSquare.png" alt="Pantheon" onclick="clickarIcone('pantheon')"> <br>
+		<h1 id="championName">Pantheon</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("keegunlol", "Keegun", "https://na.op.gg/summoner/userName=keegun"); ?>
 		 <?php addStream("spear_shot", "Spear Shot", "https://euw.op.gg/summoner/userName=spear+shot"); ?>
+	</div>
 	</div>
 
 <!-- POPPY -->
 	<div class="container" id="poppy">
-		<img src="img/80px-PoppySquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-PoppySquare.png" alt="Poopy" onclick="clickarIcone('poopy')"> <br>
+		<h1 id="championName">Poopy</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("tacticianix", "TacticianIX", "https://na.op.gg/summoner/userName=young+technician"); ?>
 		 <?php addStream("dalvenger", "Dalvenger", "https://euw.op.gg/summoner/userName=dalvenger"); ?>
-
+	</div>
 	</div>
 
 <!-- PYKE -->
 	<div class="container" id="pyke">
-		<img src="img/80px-PykeSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-PykeSquare.png" alt="Pyke" onclick="clickarIcone('pyke')"> <br>
+		<h1 id="championName">Pyke</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("xdavemon", "Davemon", "https://na.op.gg/summoner/userName=davemon"); ?>
 		 <?php addStream("hanjarolol", "Hanjaro", "https://na.op.gg/summoner/userName=fbgg+hanjaro"); ?>
+	</div>
 	</div>
 
 <!-- QIYANA -->
 	<div class="container" id="qiyana">
-		<img src="img/80px-QiyanaSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-QiyanaSquare.png" alt="Qiyana" onclick="clickarIcone('qiyana')"> <br>
+		<h1 id="championName">Qiyana</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- QUINN -->
 	<div class="container" id="quinn">
-		<img src="img/80px-QuinnSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-QuinnSquare.png" alt="Quinn" onclick="clickarIcone('quinn')"> <br>
+		<h1 id="championName">Quinn</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("quinnad", "QuinnAD", "https://na.op.gg/summoner/userName=quinn+adc"); ?>
+	</div>
 	</div>
 
 <!-- RAKAN -->
 	<div class="container" id="rakan">
-		<img src="img/80px-RakanSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-RakanSquare.png" alt="Rakan" onclick="clickarIcone('rakan')"> <br>
+		<h1 id="championName">Rakan</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- RAMMUS -->
 	<div class="container" id="rammus">
-		<img src="img/80px-RammusSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-RammusSquare.png" alt="Rammus" onclick="clickarIcone('rammus')"> <br>
+		<h1 id="championName">Rammus</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("lordsemilol", "Lord Semi", "https://br.op.gg/summoner/userName=%C3%89L+lord+semi"); ?>
+	</div>
 	</div>
 
 <!-- REK'SAI -->
 	<div class="container" id="reksai">
-		<img src="img/80px-Rek'SaiSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-Rek'SaiSquare.png" alt="Rek'Sai" onclick="clickarIcone('reksai')"> <br>
+		<h1 id="championName">Rek'Sai</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- RENEKTON -->
 	<div class="container" id="renekton">
-		<img src="img/80px-RenektonSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-RenektonSquare.png" alt="Renekton" onclick="clickarIcone('renekton')"> <br>
+		<h1 id="championName">Renekton</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("godrekton_", "Godrekton", "https://euw.op.gg/summoner/userName=godrekton"); ?>
-
+	</div>
 	</div>
 
 <!-- RENGAR -->
 	<div class="container" id="rengar">
-		<img src="img/80px-RengarSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-RengarSquare.png" alt="Rengar" onclick="clickarIcone('rengar')"> <br>
+		<h1 id="championName">Rengar</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("dekar173", "Dekar", "https://na.op.gg/summoner/userName=Hello+Im+Dekar"); ?>
 		 <?php addStream("orengaar", "O Rengar", "https://br.op.gg/summoner/userName=orengar"); ?>
 		 <?php addStream("scrubnoob", "ScrubNoob", "https://na.op.gg/summoner/userName=fear"); ?>
@@ -1758,97 +1934,123 @@ foreach($twitchApi as $apis){
 		 <?php addStream("rengarabuser", "RengarAbuser", "https://na.op.gg/summoner/userName=%CB%87Eli"); ?>
 		 <?php addStream("rengarjones", "RengarJones", "https://eune.op.gg/summoner/userName=high+apm+rengar"); ?>
 	</div>
+	</div>
 
 <!-- RIVEN -->
 	<div class="container" id="riven">
-		<img src="img/80px-RivenSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-RivenSquare.png" alt="Riven" onclick="clickarIcone('riven')"> <br>
+		<h1 id="championName">Riven</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("shy_eleven", "Shy Eleven", "https://br.op.gg/summoner/userName=lil+shy+1+1"); ?>
 		 <?php addStream("surskity", "Surkity", "https://br.op.gg/summoner/userName=surskit"); ?>
 		 <?php addStream("secillia", "Secillia", "https://na.op.gg/summoner/userName=xPu5sy51aY3rXx69"); ?>
 		 <?php addStream("dududuelista", "Dududuelista", "https://br.op.gg/summoner/userName=O+Duel%C3%AFsta"); ?>
 	</div>
+	</div>
 
 <!-- RUMBLE -->
 	<div class="container" id="rumble">
-		<img src="img/80px-RumbleSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-RumbleSquare.png" alt="Rumble" onclick="clickarIcone('rumble')"> <br>
+		<h1 id="championName">Rumble</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("wentrumble", "Went", "https://na.op.gg/summoner/userName=went"); ?>
 		 <?php addStream("officiallooter", "Looter", "https://na.op.gg/summoner/userName=looter"); ?>
-
+	</div>
 	</div>
 
 <!-- RYZE -->
 	<div class="container" id="ryze">
-		<img src="img/80px-RyzeSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-RyzeSquare.png" alt="Ryze" onclick="clickarIcone('ryze')"> <br>
+		<h1 id="championName">Ryze</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- SEJUANI -->
 	<div class="container" id="sejuani">
-		<img src="img/80px-SejuaniSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-SejuaniSquare.png" alt="Sejuani" onclick="clickarIcone('sejuani')"> <br>
+		<h1 id="championName">Sejuani</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- SENNA -->
 <div class="container" id="senna">
-		<img src="img/80px-SennaSquare.png" alt="Senna"> <br>
+		<img class="icone" src="img/80px-SennaSquare.png" alt="Senna" onclick="clickarIcone('senna')"> <br>
+		<h1 id="championName">Senna</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
- </div>
+	</div>
+ 	</div>
 
 <!-- SETT -->
 <div class="container" id="sett">
-		<img src="img/80px-SettSquare.png" alt="Sett"> <br>
+		<img class="icone" src="img/80px-SettSquare.png" alt="Sett" onclick="clickarIcone('sett')"> <br>
+		<h1 id="championName">Sett</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
- </div>
+	</div>
+	</div>
 
 <!-- SHACO -->
 	<div class="container" id="shaco">
-		<img src="img/80px-ShacoSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-ShacoSquare.png" alt="Shaco" onclick="clickarIcone('shaco')"> <br>
+		<h1 id="championName">Shaco</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("pinkwardlol", "Pink Ward", "https://na.op.gg/summoner/userName=Pink+Ward"); ?>
 		 <?php addStream("chaseshaco", "ChaseShaco", "https://na.op.gg/summoner/userName=ChSh"); ?>
 		 <?php addStream("desperateshaco", "Desperate Shaco", "https://euw.op.gg/summoner/userName=Desperate+Shaco"); ?>
 		 <?php addStream("igniteclone", "IgniteClone", "https://br.op.gg/summoner/userName=9318106720715Zed"); ?>
 		 <?php addStream("shaclone", "Shaclone", "https://euw.op.gg/summoner/userName=clone+says+no"); ?>
 	</div>
+	</div>
 
 <!-- SHEN -->
 	<div class="container" id="shen">
-		<img src="img/80px-ShenSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-ShenSquare.png" alt="Shen" onclick="clickarIcone('shen')"> <br>
+		<h1 id="championName">Shen</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("shending_help", "Shending Help", "https://euw.op.gg/summoner/userName=shendinghelp"); ?>
 		 <?php addStream("petuthebeast", "PetuTheBeast", "https://euw.op.gg/summoner/userName=xPetu"); ?>
+	</div>
 	</div>
 
 <!-- SHYVANA -->
 	<div class="container" id="shyvana">
-		<img src="img/80px-ShyvanaSquare.png" alt="Icon"> <br>
+		<img class="icone" src="img/80px-ShyvanaSquare.png" alt="Shyvana" onclick="clickarIcone('shyvana')"> <br>
+		<h1 id="championName">Shyvana</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("veralion", "Veralion", "https://na.op.gg/summoner/userName=veralion"); ?>
-
+	</div>
 	</div>
 
 <!-- SINGED -->
 	<div class="container" id="singed">
-		<img src="img/80px-SingedSquare.png" alt="SINGOD"> <br>
+		<img class="icone" src="img/80px-SingedSquare.png" alt="Singed" onclick="clickarIcone('singed')"> <br>
+		<h1 id="championName">Singed</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("minishcap1", "Minishcap1", "https://na.op.gg/summoner/userName=Minishcap1"); ?>
 		 <?php addStream("singed420", "singed420", "https://na.op.gg/summoner/userName=singed420"); ?>
 		 <?php addStream("tommy309", "Tommy309", "https://na.op.gg/summoner/userName=tommy309"); ?>
@@ -1858,95 +2060,117 @@ foreach($twitchApi as $apis){
 		 <?php addStream("leo_chem", "Leo Chem", "https://br.op.gg/summoner/userName=twtv+leo+chem"); ?>
 		 <?php addStream("proxyginger", "ProxyGinger", "https://euw.op.gg/summoner/userName=proxyginger"); ?>
 	</div>
+	</div>
 
 <!-- SION -->
 	<div class="container" id="sion">
-		<img src="img/80px-SionSquare.png" alt="Sion"> <br>
+		<img class="icone" src="img/80px-SionSquare.png" alt="Sion" onclick="clickarIcone('sion')"> <br>
+		<h1 id="championName">Sion</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("thebausffs", "Thebausffs", "https://euw.op.gg/summoner/userName=thebausffs"); ?>
+	</div>
 	</div>
 
 <!-- SIVIR -->
 	<div class="container" id="sivir">
-		<img src="img/80px-SivirSquare.png" alt="Sivir"> <br>
+		<img class="icone" src="img/80px-SivirSquare.png" alt="Sivir" onclick="clickarIcone('sivir')"> <br>
+		<h1 id="championName">Sivir</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- SKARNER -->
 	<div class="container" id="skarner">
-		<img src="img/80px-SkarnerSquare.png" alt="Skarner"> <br>
+		<img class="icone" src="img/80px-SkarnerSquare.png" alt="Skarner" onclick="clickarIcone('skarner')"> <br>
+		<h1 id="championName">Skarner</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("merthos_", "Merthos", "https://na.op.gg/summoner/userName=m%C3%A9rthos"); ?>
 		 <?php addStream("0jugger", "Jugger", "https://br.op.gg/summoner/userName=jxggr"); ?>
-
+	</div>
 	</div>
 
 <!-- SONA -->
 	<div class="container" id="sona">
-		<img src="img/80px-SonaSquare.png" alt="Sona"> <br>
+		<img class="icone" src="img/80px-SonaSquare.png" alt="Sona" onclick="clickarIcone('sona')"> <br>
+		<h1 id="championName">Sona</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- SORAKA -->
 	<div class="container" id="soraka">
-		<img src="img/80px-SorakaSquare.png" alt="Soraka"> <br>
+		<img class="icone" src="img/80px-SorakaSquare.png" alt="Soraka" onclick="clickarIcone('soraka')"> <br>
+		<h1 id="championName">Soraka</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- SWAIN -->
 	<div class="container" id="swain">
-		<img src="img/80px-SwainSquare.png" alt="Swain"> <br>
+		<img class="icone" src="img/80px-SwainSquare.png" alt="Swain" onclick="clickarIcone('swain')"> <br>
+		<h1 id="championName">Swain</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- SYLAS -->
 	<div class="container" id="sylas">
-		<img src="img/80px-SylasSquare.png" alt="Sylas"> <br>
+		<img class="icone" src="img/80px-SylasSquare.png" alt="Sylas" onclick="clickarIcone('sylas')"> <br>
+		<h1 id="championName">Sylas</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- SYNDRA -->
 	<div class="container" id="syndra">
-		<img src="img/80px-SyndraSquare.png" alt="Syndra"> <br>
+		<img class="icone" src="img/80px-SyndraSquare.png" alt="Syndra" onclick="clickarIcone('syndra')"> <br>
+		<h1 id="championName">Syndra</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <?php addStream("sepekuu", "Sepeku", "https://na.op.gg/summoner/userName=sexpeku"); ?>
-
+	</div>
 	</div>
 
 <!-- TAHM KENCH -->
 	<div class="container" id="tahmkench">
-		<img src="img/80px-Tahm_KenchSquare.png" alt="Tahm Kench"> <br>
+		<img class="icone" src="img/80px-Tahm_KenchSquare.png" alt="Tahm Kench" onclick="clickarIcone('tahmkench')"> <br>
+		<h1 id="championName">Tahm Kench</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- TALIYAH -->
 	<div class="container" id="taliyah">
-		<img src="img/80px-TaliyahSquare.png" alt="Taliyah"> <br>
+		<img src="img/80px-TaliyahSquare.png" alt="Taliyah" onclick="clickarIcone('taliyah')"> <br>
+		<h1 id="championName">Taliyah</h1>
 		<!-- <h2 id="monos">Monos:</h2> -->
 		 <br>
+		 <div id="streamers">
 		 <i>Sem mono por enquanto</i>
-
+	</div>
 	</div>
 
 <!-- TALON -->

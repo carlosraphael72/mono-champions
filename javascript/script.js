@@ -40,7 +40,7 @@ function clickarIcone(champion) {
         container.style.backgroundColor = "grey";
         streamers.style.display = 'block';
         streamers.style.marginTop = '10px';
-        nome.style.display = 'inline';
+      //  nome.style.display = 'inline';
         nome.style.left = '112px';
 }else{
     streamers.style.display = 'none';
